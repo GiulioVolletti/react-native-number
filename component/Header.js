@@ -6,7 +6,7 @@ import Color from '../Constants/color'
 const Header = props => {
     return(
         <View style={styles.header} >
-            <Text>{props.title}</Text>
+            <Text style={styles.headerTitle}>{props.title}</Text>
         </View>
     )
 };
@@ -23,6 +23,7 @@ const styles = StyleSheet.create({
     headerTitle: {
         color: 'black',
         fontSize: 18,
+        fontFamily: 'open-sans-bold'
     }
 });
 
